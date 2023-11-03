@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-require 'debug'
 DRINKS = [
   { name: 'コーヒー', price: '300' },
   { name: 'カフェラテ', price: '400' },
@@ -33,3 +32,4 @@ order2 = take_order(FOODS)
 
 total = DRINKS[order1][:price].to_i + FOODS[order2][:price].to_i
 puts "お会計は#{total}円になります。ありがとうございました！"
+  
